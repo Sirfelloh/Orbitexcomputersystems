@@ -16,18 +16,10 @@ const Home = () => {
       <section className="hero-section">
         {/* Abstract Technology Network Video */}
         <div className="video-overlay"></div>
-        <video 
-          className="hero-video" 
-          autoPlay 
-          loop 
-          muted 
-          playsInline
-        >
-          <source 
-            src="https://videos.pexels.com/video-files/3129957/3129957-sd_960_506_25fps.mp4" 
-            type="video/mp4" 
-          />
-        </video>
+        <div 
+          className="hero-image"
+          style={{ backgroundImage: `url('https://images.unsplash.com/photo-1605810230434-7631ac76ec81?q=80&w=2070&auto=format&fit=crop')` }}
+        ></div>
 
         <div className="container hero-content animate-slide-up">
           <div className="hero-badge">Orbitex Tech Solutions</div>
