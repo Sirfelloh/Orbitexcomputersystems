@@ -18,7 +18,7 @@ const Home = () => {
         <div className="video-overlay"></div>
         <div 
           className="hero-image"
-          style={{ backgroundImage: `url('https://images.unsplash.com/photo-1605810230434-7631ac76ec81?q=80&w=2070&auto=format&fit=crop')` }}
+          style={{ backgroundImage: `url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2672&auto=format&fit=crop')` }}
         ></div>
 
         <div className="container hero-content animate-slide-up">
@@ -29,7 +29,7 @@ const Home = () => {
           </p>
           <div className="hero-actions">
             <Link to="/services" className="btn btn-primary btn-lg">Explore Our Services <ArrowRight size={20} /></Link>
-            <Link to="/quote" className="btn btn-outline btn-lg">Request Quotation</Link>
+            <Link to="/quote" className="btn btn-outline-light btn-lg">Request Quotation</Link>
           </div>
         </div>
       </section>

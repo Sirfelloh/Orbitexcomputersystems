@@ -6,14 +6,14 @@
   z-index: 50;
   padding: 1.5rem 0;
   transition: var(--transition);
-}
-
-.header.scrolled {
-  padding: 1rem 0;
   background: var(--glass-bg);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--glass-border);
+}
+
+.header.scrolled {
+  padding: 1rem 0;
   box-shadow: var(--shadow-sm);
 }
 

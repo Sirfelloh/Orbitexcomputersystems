@@ -34,7 +34,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.7) 0%, rgba(241, 245, 249, 0.8) 100%);
+  background: linear-gradient(135deg, rgba(11, 36, 113, 0.6) 0%, rgba(3, 14, 46, 0.8) 100%);
   z-index: 1;
 }
 
@@ -64,7 +64,7 @@
 }
 
 .hero-title {
-  color: var(--primary);
+  color: var(--text-light);
   font-family: 'Outfit', sans-serif;
   font-size: 4rem;
   font-weight: 800;
@@ -73,14 +73,14 @@
 }
 
 .text-gradient {
-  background: linear-gradient(to right, var(--primary), var(--secondary));
+  background: linear-gradient(to right, #60A5FA, #E2E8F0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
 .hero-subtitle {
-  color: var(--text-gray);
+  color: #CBD5E1;
   font-size: 1.25rem;
   margin-bottom: 3rem;
   max-width: 600px;
