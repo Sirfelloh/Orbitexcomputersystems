@@ -50,7 +50,7 @@ const Footer = () => {
                 <Phone size={24} color="var(--secondary)" style={{ flexShrink: 0 }} />
                 <div>
                   <h5 style={{ color: 'var(--bg-main)', marginBottom: '0.25rem' }}>Phone</h5>
-                  <p style={{ color: '#cbd5e1', fontSize: '0.9rem', margin: 0 }}>0741466832/0707618012<br />Contact: Sir Felix</p>
+                  <p style={{ color: '#cbd5e1', fontSize: '0.9rem', margin: 0 }}>0741466832 | 0707618012<br />Contact: Sir Felix</p>
                 </div>
               </div>
 
