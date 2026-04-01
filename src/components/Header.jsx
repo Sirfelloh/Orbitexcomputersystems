@@ -38,7 +38,7 @@ const Header = () => {
           </div>
           <div className="logo-text">
             <span className="logo-brand">ORBITEX</span>
-            <span className="logo-tagline">Tech Solutions</span>
+            <span className="logo-tagline">Technologies</span>
           </div>
         </Link>
 
@@ -57,8 +57,8 @@ const Header = () => {
         </nav>
 
         {/* Mobile menu toggle */}
-        <button 
-          className="mobile-menu-btn" 
+        <button
+          className="mobile-menu-btn"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           aria-label="Toggle menu"
         >

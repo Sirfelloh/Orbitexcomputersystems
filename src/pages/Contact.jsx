@@ -45,7 +45,7 @@ const Contact = () => {
               <div>
                 <h4 style={{ fontSize: '1.2rem', color: 'var(--text-dark)', marginBottom: '0.25rem' }}>Call Us</h4>
                 <p style={{ color: 'var(--text-gray)', margin: 0, fontSize: '1.1rem' }}>
-                  Main: <a href="tel:0741466832" style={{ color: 'var(--primary)', fontWeight: 600 }}>0741466832/0707618012</a><br />
+                  Main: <a href="tel:0741466832/0707618012" style={{ color: 'var(--primary)', fontWeight: 600 }}>0741466832/0707618012</a><br />
                   Ask for: Sir Felix
                 </p>
               </div>

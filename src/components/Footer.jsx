@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer" style={{ backgroundColor: 'var(--primary-dark)', color: 'var(--text-light)', paddingTop: '4rem', paddingBottom: '2rem' }}>
       <div className="container">
         <div className="grid grid-cols-4" style={{ gap: '3rem', marginBottom: '3rem' }}>
-          
+
           {/* Brand Col */}
           <div className="footer-col" style={{ gridColumn: 'span 1' }}>
             <Link to="/" className="logo-group" style={{ marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
@@ -15,7 +15,7 @@ const Footer = () => {
               </div>
               <div className="logo-text" style={{ display: 'flex', flexDirection: 'column' }}>
                 <span style={{ fontFamily: 'Outfit', fontWeight: 800, fontSize: '1.25rem', color: 'var(--bg-main)', lineHeight: 1 }}>ORBITEX</span>
-                <span style={{ fontSize: '0.75rem', color: 'var(--secondary)' }}>Tech Solutions</span>
+                <span style={{ fontSize: '0.75rem', color: 'var(--secondary)' }}>Technologies</span>
               </div>
             </Link>
             <p style={{ color: '#cbd5e1', fontSize: '0.9rem', marginBottom: '1.5rem', maxWidth: '300px' }}>
@@ -50,7 +50,7 @@ const Footer = () => {
                 <Phone size={24} color="var(--secondary)" style={{ flexShrink: 0 }} />
                 <div>
                   <h5 style={{ color: 'var(--bg-main)', marginBottom: '0.25rem' }}>Phone</h5>
-                  <p style={{ color: '#cbd5e1', fontSize: '0.9rem', margin: 0 }}>0741466832<br/>Contact: Sir Felix</p>
+                  <p style={{ color: '#cbd5e1', fontSize: '0.9rem', margin: 0 }}>0741466832/0707618012<br />Contact: Sir Felix</p>
                 </div>
               </div>
 
@@ -66,16 +66,16 @@ const Footer = () => {
                 <Clock size={24} color="var(--secondary)" style={{ flexShrink: 0 }} />
                 <div>
                   <h5 style={{ color: 'var(--bg-main)', marginBottom: '0.25rem' }}>Working Hours</h5>
-                  <p style={{ color: '#cbd5e1', fontSize: '0.9rem', margin: 0 }}>Mon - Sat: 8:00 AM - 6:00 PM</p>
+                  <p style={{ color: '#cbd5e1', fontSize: '0.9rem', margin: 0 }}>Mon - Sat: 8:00 AM - 5:00 PM</p>
                 </div>
               </div>
             </div>
           </div>
-          
+
         </div>
 
         <div style={{ borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '2rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '1rem' }}>
-          <p style={{ color: '#94a3b8', fontSize: '0.875rem', margin: 0 }}>&copy; {new Date().getFullYear()} Orbitex Tech Solutions. All rights reserved.</p>
+          <p style={{ color: '#94a3b8', fontSize: '0.875rem', margin: 0 }}>&copy; {new Date().getFullYear()} Orbitex Technologies. All rights reserved.</p>
           <div style={{ display: 'flex', gap: '1.5rem' }}>
             <Link to="/contact" style={{ color: '#94a3b8', fontSize: '0.875rem' }}>Privacy Policy</Link>
             <Link to="/contact" style={{ color: '#94a3b8', fontSize: '0.875rem' }}>Terms of Service</Link>
